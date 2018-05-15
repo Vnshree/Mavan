@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="83050" started-at="2018-05-15T06:06:47Z" finished-at="2018-05-15T06:08:10Z">
+    <groups>
+    </groups>
+    <test name="CHROME" duration-ms="46508" started-at="2018-05-15T06:06:47Z" finished-at="2018-05-15T06:07:33Z">
+      <class name="mavan.mavan1stprogram.Testng1$Class1">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:mavan.mavan1stprogram.Testng1$Class1@371a67ec]" name="setup" is-config="true" duration-ms="46192" started-at="2018-05-15T06:06:47Z" finished-at="2018-05-15T06:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="linktesting()[pri:0, instance:mavan.mavan1stprogram.Testng1$Class1@371a67ec]" name="linktesting" duration-ms="272" started-at="2018-05-15T06:07:33Z" finished-at="2018-05-15T06:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linktesting -->
+        <test-method status="PASS" signature="killprocess()[pri:0, instance:mavan.mavan1stprogram.Testng1$Class1@371a67ec]" name="killprocess" is-config="true" duration-ms="0" started-at="2018-05-15T06:07:33Z" finished-at="2018-05-15T06:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killprocess -->
+      </class> <!-- mavan.mavan1stprogram.Testng1$Class1 -->
+    </test> <!-- CHROME -->
+    <test name="FIREFOX" duration-ms="36438" started-at="2018-05-15T06:07:33Z" finished-at="2018-05-15T06:08:10Z">
+      <class name="mavan.mavan1stprogram.Testng1$Class1">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:mavan.mavan1stprogram.Testng1$Class1@3ecd23d9]" name="setup" is-config="true" duration-ms="36007" started-at="2018-05-15T06:07:33Z" finished-at="2018-05-15T06:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="linktesting()[pri:0, instance:mavan.mavan1stprogram.Testng1$Class1@3ecd23d9]" name="linktesting" duration-ms="420" started-at="2018-05-15T06:08:09Z" finished-at="2018-05-15T06:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linktesting -->
+        <test-method status="PASS" signature="killprocess()[pri:0, instance:mavan.mavan1stprogram.Testng1$Class1@3ecd23d9]" name="killprocess" is-config="true" duration-ms="1" started-at="2018-05-15T06:08:10Z" finished-at="2018-05-15T06:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killprocess -->
+      </class> <!-- mavan.mavan1stprogram.Testng1$Class1 -->
+    </test> <!-- FIREFOX -->
+  </suite> <!-- Suite -->
+</testng-results>
