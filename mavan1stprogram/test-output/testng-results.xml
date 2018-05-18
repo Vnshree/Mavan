@@ -1,55 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="83050" started-at="2018-05-15T06:06:47Z" finished-at="2018-05-15T06:08:10Z">
+  <suite name="Default suite" duration-ms="343" started-at="2018-05-18T05:14:32Z" finished-at="2018-05-18T05:14:32Z">
     <groups>
     </groups>
-    <test name="CHROME" duration-ms="46508" started-at="2018-05-15T06:06:47Z" finished-at="2018-05-15T06:07:33Z">
-      <class name="mavan.mavan1stprogram.Testng1$Class1">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:mavan.mavan1stprogram.Testng1$Class1@371a67ec]" name="setup" is-config="true" duration-ms="46192" started-at="2018-05-15T06:06:47Z" finished-at="2018-05-15T06:07:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="343" started-at="2018-05-18T05:14:32Z" finished-at="2018-05-18T05:14:32Z">
+      <class name="mavan.mavan1stprogram.LinkTesting">
+        <test-method status="FAIL" signature="startProcess(java.lang.String)[pri:0, instance:mavan.mavan1stprogram.LinkTesting@12f41634]" name="startProcess" is-config="true" duration-ms="0" started-at="2018-05-18T05:14:32Z" finished-at="2018-05-18T05:14:32Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method startProcess but has not been marked @Optional or defined
+in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--2003436449\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method startProcess but has not been marked @Optional or defined
+in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--2003436449\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="linktesting()[pri:0, instance:mavan.mavan1stprogram.Testng1$Class1@371a67ec]" name="linktesting" duration-ms="272" started-at="2018-05-15T06:07:33Z" finished-at="2018-05-15T06:07:33Z">
+        </test-method> <!-- startProcess -->
+        <test-method status="SKIP" signature="singleLink()[pri:0, instance:mavan.mavan1stprogram.LinkTesting@12f41634]" name="singleLink" duration-ms="0" started-at="2018-05-18T05:14:32Z" finished-at="2018-05-18T05:14:32Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method startProcess but has not been marked @Optional or defined
+in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--2003436449\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method startProcess but has not been marked @Optional or defined
+in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--2003436449\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- linktesting -->
-        <test-method status="PASS" signature="killprocess()[pri:0, instance:mavan.mavan1stprogram.Testng1$Class1@371a67ec]" name="killprocess" is-config="true" duration-ms="0" started-at="2018-05-15T06:07:33Z" finished-at="2018-05-15T06:07:33Z">
+        </test-method> <!-- singleLink -->
+        <test-method status="SKIP" signature="endProcess()[pri:0, instance:mavan.mavan1stprogram.LinkTesting@12f41634]" name="endProcess" is-config="true" duration-ms="0" started-at="2018-05-18T05:14:32Z" finished-at="2018-05-18T05:14:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- killprocess -->
-      </class> <!-- mavan.mavan1stprogram.Testng1$Class1 -->
-    </test> <!-- CHROME -->
-    <test name="FIREFOX" duration-ms="36438" started-at="2018-05-15T06:07:33Z" finished-at="2018-05-15T06:08:10Z">
-      <class name="mavan.mavan1stprogram.Testng1$Class1">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:mavan.mavan1stprogram.Testng1$Class1@3ecd23d9]" name="setup" is-config="true" duration-ms="36007" started-at="2018-05-15T06:07:33Z" finished-at="2018-05-15T06:08:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FIREFOX]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="linktesting()[pri:0, instance:mavan.mavan1stprogram.Testng1$Class1@3ecd23d9]" name="linktesting" duration-ms="420" started-at="2018-05-15T06:08:09Z" finished-at="2018-05-15T06:08:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linktesting -->
-        <test-method status="PASS" signature="killprocess()[pri:0, instance:mavan.mavan1stprogram.Testng1$Class1@3ecd23d9]" name="killprocess" is-config="true" duration-ms="1" started-at="2018-05-15T06:08:10Z" finished-at="2018-05-15T06:08:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- killprocess -->
-      </class> <!-- mavan.mavan1stprogram.Testng1$Class1 -->
-    </test> <!-- FIREFOX -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- endProcess -->
+      </class> <!-- mavan.mavan1stprogram.LinkTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
